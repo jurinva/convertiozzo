@@ -1,0 +1,29 @@
+<?xml version = '1.0'?>
+<!DOCTYPE connectionset>
+<connectionset version="6">
+  <folder name='PROD' expanded='1'>
+    <connection name='SOMEHOSTNAME' host='SOMEHOSTIP' protocol='ssh' port='22' flags='0'>
+      <authentication>
+        <mode>2</mode>
+        <auth_user>username</auth_user>
+        <auth_password></auth_password>
+        <identityFile>/home/username/.ssh/id_rsa</identityFile>
+      </authentication>
+      <last_user>vyurin</last_user>
+      <user></user>
+      <password></password>
+      <directory></directory>
+      <user_options></user_options>
+      <note></note>
+      <sftp_dir></sftp_dir>
+      <upload_dir></upload_dir>
+      <download_dir></download_dir>
+      <options>
+        <property name='x11Forwarding'>0</property>
+        <property name='agentForwarding'>0</property>
+        <property name='disableStrictKeyChecking'>0</property>
+        <property name='keepAliveInterval' enabled='0'>0</property>
+      </options>
+    </connection>
+  </folder>
+</connectionset>

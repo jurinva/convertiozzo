@@ -1,0 +1,11 @@
+  <value _ptr_="0x13ff050" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="51b90660-0530-11e9-9f18-080027b41dd8" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">e850c6dd-052e-11e9-9f18-080027b41dd8</link>
+      <value _ptr_="0x14af2e0" type="dict" key="loginInfo"/>
+      <value _ptr_="0x14af370" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">1</value>
+      </value>
+      <value type="string" key="name">{hostname}</value>
+    </value>
+  </value>
+</data>
